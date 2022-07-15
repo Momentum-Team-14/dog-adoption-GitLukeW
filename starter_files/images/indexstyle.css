@@ -57,6 +57,63 @@ img {
     padding: 0 1.5rem;
 }
 
+.footerpics {
+    display: flex;
+    flex-wrap: wrap; 
+    height: 10rem;
+    background-color: #A6A9F0;
+    z-index: -1;
+}
+
+.donate {
+    background-image: url(./donate.jpg);
+    width: 33.4%;
+    background-size: cover;
+    background-position: center;  
+    opacity: 50%;
+    z-index: 1;
+    
+}
+
+.donate p {
+    display: grid;
+    place-items: center;
+    padding-top: 50px;
+    font-weight: 400;
+    color: white;
+}
+
+.volunteer {
+    background-image: url(./volunteer.jpg);
+    width: 33.3%;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.volunteer p {
+    display: grid;
+    place-items: center;
+    padding-top: 50px;
+    font-weight: 400;
+    color: white;
+}
+
+.ourlocation {
+    background-image: url(./location.png);
+    width: 33.3%;
+    background-size: cover;
+    background-position: center;
+}
+
+.ourlocation p {
+    display: grid;
+    place-items: center;
+    padding-top: 50px;
+    font-weight: 400;
+    color: white;
+
+}
 
 
 
