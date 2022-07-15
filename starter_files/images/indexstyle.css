@@ -56,8 +56,7 @@ img {
 }
 
 .oaform {
-    margin: 0 0 1rem 1.75rem;
-    
+    margin: 0 0 1rem 1.75rem; 
 }
 
 footer {
@@ -96,5 +95,28 @@ footer {
     background-size: cover;
     background-position: center; 
     font-family: oswald;
-    font-size: 2rem; 
+    font-size: 2em; 
+}
+
+footer a {
+    text-decoration: none;
+    color:white;
+    display: relative;
+}
+
+footer a ::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: currentColor;
+    transform: scale(0);
+    transform-origin: left;
+    transition: transform 250ms ease-in;
+}
+
+footer a :hover::after {
+    transform: scale(1);
 }
